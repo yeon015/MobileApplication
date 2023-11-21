@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mobile.database.dbtest03"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->[androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\lizki\.gradle\caches\transforms-2\files-2.1\7f1d4d98abee55b64045e65f9b4ba57b\constraintlayout-2.1.0\AndroidManifest.xml:7:9-38
+10
+11    <application
+11-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:7:5-31:19
+12        android:allowBackup="true"
+12-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:8:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\lizki\.gradle\caches\transforms-2\files-2.1\20ef5b0ef65626922759a2312a98a5e9\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@drawable/ic_launcher"
+16-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:9:9-45
+17        android:label="@string/app_name"
+17-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:10:9-41
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="mobile.database.dbtest02.UpdateActivity" />
+20-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:12:9-85
+20-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:12:19-73
+21        <activity
+21-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:13:9-21:20
+22            android:name="mobile.database.dbtest02.MainActivity"
+22-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:14:13-65
+23            android:label="@string/app_name" >
+23-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:15:13-45
+24            <intent-filter>
+24-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:22:9-24:78
+31            android:name="mobile.database.dbtest02.InsertContactActivity"
+31-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:23:13-74
+32            android:label="@string/title_activity_insert_contact" />
+32-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:24:13-66
+33        <activity
+33-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:25:9-27:78
+34            android:name="mobile.database.dbtest02.SearchContactActivity"
+34-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:26:13-74
+35            android:label="@string/title_activity_search_contact" />
+35-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:27:13-66
+36        <activity
+36-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:28:9-30:76
+37            android:name="mobile.database.dbtest02.AllContactsActivity"
+37-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:29:13-72
+38            android:label="@string/title_activity_all_contacts" />
+38-->C:\Work\Mobile\DBTest02_sample\app\src\main\AndroidManifest.xml:30:13-64
+39    </application>
+40
+41</manifest>
